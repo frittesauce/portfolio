@@ -6,8 +6,6 @@ const SPOTIFY_CURRENT_PLAYING = 'https://api.spotify.com/v1/me/player/currently-
 const SPOTIFY_RECENT = 'https://api.spotify.com/v1/me/player/recently-played?limit=1';
 
 async function getAccessToken() {
-  const clientId = env.SPOTIFY_CLIENT_ID;
-  const clientSecret = env.SPOTIFY_CLIENT_SECRET;
   const refreshToken = env.SPOTIFY_REFRESH_TOKEN;
 
   const body = new URLSearchParams({
@@ -18,7 +16,7 @@ async function getAccessToken() {
   const resp = await fetch(SPOTIFY_TOKEN_URL, {
     method: 'POST',
     headers: {
-      Authorization: 'Basic ' + Buffer.from(`${clientId}:${clientSecret}`).toString('base64'),
+      Authorization: `Basic ${btoa(`${env.SPOTIFY_CLIENT_ID}:${env.SPOTIFY_CLIENT_SECRET}`)}`,
       'Content-Type': 'application/x-www-form-urlencoded'
     },
     body: body.toString()

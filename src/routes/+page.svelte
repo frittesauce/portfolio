@@ -71,6 +71,9 @@
 							<span class="rounded-full bg-ctp-red/20 px-1.5 py-0.5 text-xs text-ctp-red"
 								>PostgreSQL</span
 							>
+							<span class="rounded-full bg-ctp-red/20 px-1.5 py-0.5 text-xs text-ctp-red"
+								>Ruby On Rails</span
+							>
 						</div>
 					</div>
 				</div>

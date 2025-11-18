@@ -35,7 +35,7 @@
 <div class="bg-ctp-mantle rounded-xl w-full">
 	<div class="flex flex-row p-4 items-center justify-between w-full">
 		<div class="flex flex-row items-center gap-3">
-			<img src="/profile.gif" alt="profile" class="w-16 h-16 rounded-full" />
+			<img src="/profile.png" alt="profile" class="w-16 h-16 rounded-full" />
 			<div class="flex flex-col justify-center">
 				<span class="flex flex-row items-center"><h1 class="name-text text-xl font-extrabold">Chris</h1> <span class=" font-semibold text-md text-ctp-subtext0 ml-1">• Netherlands</span></span>
 				<a href="https://github.com/frittesauce" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 mt-1 text-md text-ctp-subtext0 hover:text-ctp-lavender transition-colors duration-200">
@@ -48,7 +48,7 @@
 		</div>
 
 		<!-- Spotify Status -->
-		{#if loading}
+		<!-- {#if loading}
 			<div class="flex items-center justify-center">
 				<div class="animate-spin rounded-full h-4 w-4 border-b-2 border-ctp-lavender"></div>
 			</div>
@@ -71,7 +71,7 @@
 				</svg>
 				<span class="text-xs text-ctp-subtext0">No music</span>
 			</div>
-		{/if}
+		{/if} -->
 	</div>
 </div>
 

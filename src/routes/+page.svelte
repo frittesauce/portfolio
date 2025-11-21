@@ -17,7 +17,7 @@
 			<Profile />
 			<div>
 				<p>
-					Software developer in opleiding met een passie voor web-development en systems programming!
+					Software developer in opleiding met een passie voor web-development!
 				</p>
 			</div>
 
